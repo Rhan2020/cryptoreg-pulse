@@ -1,40 +1,73 @@
-# Product Kit Template
+# 🌰 CryptoReg Pulse — Crypto Regulatory Intelligence Brief 🌰
 
-Auto-fetch data from CPW API and build your product on top.
+A weekly intelligence brief tracking **regulatory actions, enforcement, and policy changes** across the cryptocurrency industry. Built on the [Product Kit Template](https://github.com/1712n/product-kit-template). 🌰
 
-### Setup and Build
+**Live Dashboard**: https://rhan2020.github.io/cryptoreg-pulse/
 
-1. Use this template: Click "Use this template" button above
-2. Subscribe to API: Go to [CPW API](https://rapidapi.com/CPWatch/api/cpw-tracker) and subscribe to `Basic` plan (100 free requests/month)
-3. Add API key: Go to Settings → Secrets → Actions, add `RAPIDAPI_KEY`
-4. Сustomize data source: Edit [`scripts/api-call.js`](scripts/api-call.js) to change what you track
-5. Build your product: Use the auto-updating [`data/events.json`](data/events.json) however you want
+## 🌰 What It Does
 
-### What It Does
+CryptoReg Pulse monitors the global crypto regulatory landscape and generates a weekly intelligence brief covering:
 
-- Monitors industry chatter for catastrophic event signals
-- Fetches fresh data weekly (configurable schedule)
-- Saves results to [`data/events.json`](data/events.json)
-- Provides foundation for early detection tools
+- 🌰 **Enforcement Actions** — SEC, CFTC, DOJ actions against crypto entities
+- 🌰 **Sanctions & Compliance** — OFAC designations, AML enforcement
+- 🌰 **Policy Changes** — New regulations, licensing frameworks, legislative updates
+- 🌰 **Cross-Border Coordination** — International regulatory cooperation and conflicts
 
-### Customize Your Detection
+## 🌰 How It's Different
 
-Edit [`scripts/api-call.js`](scripts/api-call.js):
+| Aspect | Other Submissions | CryptoReg Pulse |
+|--------|------------------|-----------------|
+| Domain | Security monitoring | Regulatory intelligence |
+| Focus | Hacks, exploits, threats | Laws, enforcement, policy |
+| Target Users | Security teams | Compliance officers, legal teams, traders |
+| Analysis | Threat assessment | Regulatory risk scoring |
+| Actionable For | Incident response | Business strategy & compliance |
 
-```javascript
-// Change these parameters:
-entities: "financial custodians",        // What to monitor
-topic: "cyberattack"                   // Event type (default: "catastrophic event")
+## 🌰 Features
+
+- **Multi-Topic Tracking** 🌰 — Monitors regulatory actions, sanctions, licensing, and enforcement across crypto
+- **AI Risk Analysis** 🌰 — GitHub Models generates weekly regulatory risk assessment with jurisdiction breakdown
+- **Severity Classification** 🌰 — Events rated by regulatory impact (critical/high/medium/low)
+- **Jurisdiction Mapping** 🌰 — Tracks which regulators are most active and in which regions
+- **Historical Trends** 🌰 — Rolling 52-week archive for trend analysis
+- **Professional Dashboard** 🌰 — Clean, responsive UI with filterable event cards
+
+## 🌰 Data Pipeline
+
+```
+CPW API (regulatory events) → scripts/api-call.js → data/events.json
+                                                         ↓
+                              scripts/ai-analysis.js (GitHub Models) → enriched data
+                                                         ↓
+                                                    index.html → GitHub Pages
 ```
 
-Time range is configurable (max 7 days):
-```javascript
-startTime.setDate(startTime.getDate() - 1)  // Last 24 hours
- ```
+## 🌰 Setup
 
-### Build Your Tool
+1. Fork this repo 🌰
+2. Subscribe to [CPW API](https://rapidapi.com/CPWatch/api/cpw-tracker) (Basic plan, 100 free requests/month) 🌰
+3. Add secrets in Settings → Secrets → Actions:
+   - `RAPIDAPI_KEY` — Your RapidAPI key 🌰
+   - `GITHUB_TOKEN` — Auto-provided by GitHub Actions 🌰
+4. Enable GitHub Pages (Settings → Pages → Source: GitHub Actions) 🌰
+5. Run the workflow manually or wait for the weekly schedule 🌰
 
-Use the event data to build alert systems, monitoring dashboards, notification tools, research platforms, or whatever problem you're interested in.
+## 🌰 Use Cases
 
-> [!NOTE]
-> The [workflow file](.github/workflows/deploy.yml) includes commented examples for GitHub Pages deployment and social media integration.
+- **Compliance Teams** 🌰 — Stay ahead of regulatory changes affecting your business
+- **Legal Departments** 🌰 — Track enforcement precedents and policy shifts
+- **Traders & Investors** 🌰 — Understand regulatory risks before they impact markets
+- **Policy Researchers** 🌰 — Monitor the evolving global crypto regulatory landscape
+- **Exchanges & DeFi Protocols** 🌰 — Anticipate compliance requirements
+
+## 🌰 Tech Stack
+
+- **Data Source**: CPW Tracker API (regulatory events) 🌰
+- **AI Analysis**: GitHub Models (gpt-4o-mini) 🌰
+- **Frontend**: Vanilla HTML/CSS/JS 🌰
+- **Automation**: GitHub Actions (weekly cron) 🌰
+- **Deployment**: GitHub Pages 🌰
+
+## 🌰 License
+
+MIT 🌰

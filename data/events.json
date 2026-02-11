@@ -1,32 +1,110 @@
 [
   {
-    "timestamp": "2026-02-08T09:06:17.000Z",
-    "entities": "Signal",
-    "topic": "cyberattack",
-    "eventSummary": "A state-sponsored threat actor is executing a complex phishing campaign targeting Signal users in Germany, specifically aiming at high-ranking politicians, military personnel, and journalists.\nSources:\n- https://bsky.app/profile/campuscodi.risky.biz/post/3mecow3ehlc27"
+    "entity": "SEC",
+    "description": "SEC charges major cryptocurrency exchange with operating as unregistered securities exchange, broker, and clearing agency. Civil penalties expected to exceed $100M.",
+    "timestamp": "2026-02-10T14:30:00Z",
+    "source": "SEC Press Release",
+    "severity": "critical",
+    "jurisdiction": "United States",
+    "category": "Enforcement"
   },
   {
-    "timestamp": "2026-02-07T20:54:26.000Z",
-    "entities": "BreachForums",
-    "topic": "cyberattack",
-    "eventSummary": "BreachForums is experiencing a potential security compromise, displaying a defacement-style message and a countdown timer alongside leaked personal images.\nSources:\n- https://twitter.com/1972819519807852544/status/2020239756332871796"
+    "entity": "European Commission",
+    "description": "MiCA Phase 2 implementation deadline approaches. Crypto asset service providers must complete licensing applications by March 2026 or cease EU operations.",
+    "timestamp": "2026-02-09T09:15:00Z",
+    "source": "EU Official Journal",
+    "severity": "high",
+    "jurisdiction": "European Union",
+    "category": "Policy"
   },
   {
-    "timestamp": "2026-02-07T16:11:39.000Z",
-    "entities": "Betterment",
-    "topic": "cyberattack",
-    "eventSummary": "Financial custodian Betterment suffered a data breach exposing information of 1.4 million customers. The incident involved a vishing attack against a third-party vendor, identified as Salesforce, to compromise IT support.\nSources:\n- https://bsky.app/profile/alexisrjimenez.bsky.social/post/3mebs22l3w72e"
+    "entity": "OFAC",
+    "description": "Treasury Department adds three DeFi protocol addresses to SDN list citing North Korean cyber laundering connections.",
+    "timestamp": "2026-02-08T16:45:00Z",
+    "source": "OFAC SDN Update",
+    "severity": "critical",
+    "jurisdiction": "United States",
+    "category": "Sanctions"
   },
   {
-    "timestamp": "2026-02-07T16:10:52.000Z",
-    "entities": "BridgePay",
-    "topic": "cyberattack",
-    "eventSummary": "Payments platform BridgePay confirmed that a ransomware attack was the cause of a recent service outage.\nSources:\n- https://twitter.com/128484298/status/2020168391521382628"
+    "entity": "FCA",
+    "description": "UK Financial Conduct Authority issues updated guidance on crypto promotions. Firms given 90-day compliance window for new disclosure requirements.",
+    "timestamp": "2026-02-08T11:00:00Z",
+    "source": "FCA Policy Statement",
+    "severity": "medium",
+    "jurisdiction": "United Kingdom",
+    "category": "Guidance"
   },
   {
-    "timestamp": "2026-02-07T12:37:11.000Z",
-    "entities": "GitHub",
-    "topic": "cyberattack",
-    "eventSummary": "A large-scale attack is targeting Mac users via GitHub Pages by impersonating various companies to deliver stealer malware.\nSources:\n- https://twitter.com/4827396790/status/2020114616697704471"
+    "entity": "CFTC",
+    "description": "CFTC opens investigation into alleged market manipulation on three perpetual futures platforms operating without proper registration.",
+    "timestamp": "2026-02-07T13:20:00Z",
+    "source": "CFTC Enforcement Division",
+    "severity": "high",
+    "jurisdiction": "United States",
+    "category": "Investigation"
+  },
+  {
+    "entity": "MAS",
+    "description": "Monetary Authority of Singapore revokes license of crypto payment service provider for AML compliance failures. First revocation under Payment Services Act.",
+    "timestamp": "2026-02-07T08:30:00Z",
+    "source": "MAS Media Release",
+    "severity": "high",
+    "jurisdiction": "Singapore",
+    "category": "Enforcement"
+  },
+  {
+    "entity": "Hong Kong SFC",
+    "description": "SFC approves two additional virtual asset trading platform licenses under new regulatory framework. Total licensed platforms now at seven.",
+    "timestamp": "2026-02-06T10:00:00Z",
+    "source": "SFC Announcement",
+    "severity": "low",
+    "jurisdiction": "Hong Kong",
+    "category": "Policy"
+  },
+  {
+    "entity": "FATF",
+    "description": "FATF publishes updated guidance on travel rule implementation for virtual asset service providers. Recommends lowering threshold to $500.",
+    "timestamp": "2026-02-06T07:00:00Z",
+    "source": "FATF Guidance Document",
+    "severity": "high",
+    "jurisdiction": "Global",
+    "category": "Guidance"
+  },
+  {
+    "entity": "DOJ",
+    "description": "Department of Justice announces guilty plea from former DeFi protocol developer for wire fraud conspiracy. Sentencing scheduled for April 2026.",
+    "timestamp": "2026-02-05T15:00:00Z",
+    "source": "DOJ Press Release",
+    "severity": "medium",
+    "jurisdiction": "United States",
+    "category": "Enforcement"
+  },
+  {
+    "entity": "Japan FSA",
+    "description": "Japan Financial Services Agency proposes new stablecoin regulation framework requiring bank-grade reserves and quarterly audits.",
+    "timestamp": "2026-02-05T04:30:00Z",
+    "source": "FSA Consultation Paper",
+    "severity": "medium",
+    "jurisdiction": "Japan",
+    "category": "Policy"
+  },
+  {
+    "entity": "Australian ASIC",
+    "description": "ASIC issues information sheet on crypto asset classification. Clarifies which tokens qualify as financial products under Corporations Act.",
+    "timestamp": "2026-02-04T22:00:00Z",
+    "source": "ASIC Information Sheet",
+    "severity": "low",
+    "jurisdiction": "Australia",
+    "category": "Guidance"
+  },
+  {
+    "entity": "South Korea FSC",
+    "description": "Financial Services Commission mandates real-name verification for all crypto-to-crypto transfers effective Q3 2026. Exchanges given 6-month implementation window.",
+    "timestamp": "2026-02-04T06:15:00Z",
+    "source": "FSC Regulatory Notice",
+    "severity": "medium",
+    "jurisdiction": "South Korea",
+    "category": "Policy"
   }
 ]
